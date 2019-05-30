@@ -1,0 +1,21 @@
+<?php
+ function takes_array($input)
+{
+ echo "$input[0] + $input[1] +$input[string]  = ", $input[0]+$input[1];
+ if ($input[0] + $input[1] +$input[true]) {
+       echo "$to_words";
+  $output= "one";
+} 
+ 	else ($input[0] + $input[1] +$input[false])
+ 		  $output= "1";
+
+}
+function f($x='4', $y='5',$z=true){
+   $output = $x*$y;
+   echo $output;
+}
+f($y='4',$x='5');
+
+
+
+?>
